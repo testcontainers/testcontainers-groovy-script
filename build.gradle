@@ -1,11 +1,11 @@
 apply plugin: "java"
 
 repositories {
-    jcenter()
+  mavenCentral()
 }
 
 dependencies {
-    compileOnly localGroovy()
-    compile "org.testcontainers:testcontainers:1.7.3"
-    compile "org.slf4j:slf4j-simple:1.7.25"
+  compileOnly localGroovy()
+  implementation "org.testcontainers:testcontainers:1.16.2"
+  implementation "org.slf4j:slf4j-simple:1.7.25"
 }
