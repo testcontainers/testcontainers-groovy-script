@@ -7,5 +7,5 @@ repositories {
 dependencies {
   compileOnly localGroovy()
   implementation "org.testcontainers:testcontainers:1.16.2"
-  implementation "org.slf4j:slf4j-simple:1.7.25"
+  implementation "org.slf4j:slf4j-simple:1.7.32"
 }
